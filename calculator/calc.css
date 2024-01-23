@@ -1,0 +1,130 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.container{
+    margin-top: 2rem;
+    background-color: rgb(44, 43, 43);
+    
+    padding-bottom: 0.3rem;
+    width: 43vh;
+    border-radius: 0.5rem;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.nav img{
+    width: 20px;
+}
+.nav p{
+    color: white;
+}
+
+.nav_left{
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    padding-right: 1rem;
+}
+.nav_right span{
+    font-size: 20px;
+}
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    gap: 1.5vh;
+    padding-left: 0.5rem;
+}
+
+
+.inputs{
+   margin-left: 12rem;
+    display: block;
+}
+.keyboard{
+    margin-top: 1rem;
+}
+.r1{
+    display: flex;
+    gap: 3.3vh;
+    color: white;
+    padding-left: 0.5rem;
+}
+/* #expand_m{
+  
+    
+} */
+.r1 button{
+    background: none;
+    border: none;
+    color: white;
+}
+.keys{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 1rem;
+    padding-left: 0.3rem;
+}
+.keys button{
+    height: 7vh;
+    width: 10vh;
+    background-color: rgba(133, 133, 133, 0.43);
+    border: none;
+    border-radius: 0.3rem;
+    margin-top: 0.2rem;
+    color: white;
+    font-size: 17px;
+
+}
+.keys button:hover{
+    background-color: rgb(60, 59, 59);
+    cursor: pointer;
+}
+#backspace span{
+   font-size: 22px;
+}
+.input1{
+    padding-right: 1rem;
+    color: white;
+    height: 10vh;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.input2{
+   padding-right: 1rem;
+    color: white;
+    height: 10vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#equals{
+    background-color: rgb(12, 164, 181);
+}
